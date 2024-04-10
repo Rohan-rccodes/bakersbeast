@@ -1,0 +1,102 @@
+ <!doctype html>
+<html>
+<head>
+<title>Bakerbeast</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="imgs/ban.jpg">
+</head>
+<body>
+<div class="main">
+<div id="frame1">
+<header>
+<a href="#frame1" class="logo">Bakers<span>beast</span></a>
+<nav>
+<a href="#frame1">Home</a>
+<a href="#frame2">Features</a>
+<a href="#frame3">Gallery</a>
+<a href="#frame4">About us</a>
+<a href="#frame5">Contact us</a>
+</nav>
+</header>
+<div class="banner">
+<div class="text">
+<h1>Cakes filled with sweetness blow your <span>heart with joy</span></h1>
+<p class="desc">
+Page one is a diet, page two is a chocolate cake.<br> It’s a no-win situation.
+</p>
+<a href="#frame3" class="explore">View Products &rarr;</a>
+</div>
+
+<img src="imgs/ban.jpg">
+</div>
+</div>
+
+<div id="frame2" class="frame">
+<h1 class="center">Features</h1>
+<div class="fGrid">
+<div class="dialog">
+<div class="icon"><img src="imgs/f1.svg"></div>
+<p class="text">Clean hygience food with no preservatives no sugar no salt Clean hygience food</p>
+</div>
+<div class="dialog">
+<div class="icon"><img src="imgs/f2.svg"></div>
+<p class="text">Blessed with customers love and support beacuse of our sweet cakes</p>
+</div>
+<div class="dialog">
+<div class="icon"><img src="imgs/f3.svg"></div>
+<p class="text">Fast order service, never let our customer sad Fast order service, never let our customer sad.</p>
+</div>
+</div>
+</div>
+<div id="frame3" class="frame">
+<h1 class="center">Gallery</h1>
+<div class="gallery">
+<img src="imgs/1.jpg">
+<img src="imgs/2.jpg">
+<img src="imgs/3.jpg">
+<img src="imgs/7.jpg">
+<img src="imgs/4.jpg">
+<img src="imgs/5.jpg">
+<img src="imgs/6.jpg">
+<img src="imgs/3.jpg">
+</div>
+</div>
+
+
+<div id="frame4" class="frame">
+<h1 class="center">About us</h1>
+	<div class="accordian">
+	<details>
+	<summary>Who is the founder of Bakerbeast? <span class="toggleAcord">+</span></summary>
+	<p>Rohan Jerry owns the brand with full copyright . All rights goes to vinay. Aryan is the CEO and so on with patent.</p>
+	<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero, reprehenderit ipsum ratione facere, quasi esse est molestiae perferendis dignissimos ipsa similique. Dicta, ipsam labore molestiae quia consequatur, magni eum recusandae, blanditiis dignissimos dolorum eos necessitatibus at asperiores error facilis. Ipsum, illo temporibus. Officiis, animi. Vero ab provident neque sunt, hic quaerat laborum. Officiis repellat dolor incidunt magnam commodi assumenda fuga, eius provident, ullam dignissimos quia aspernatur et nisi ea dolorem reiciendis praesentium consectetur quidem repudiandae eaque temporibus expedita! Deserunt illo accusantium, et nam, reprehenderit ipsum dolor magnam facilis fugiat quam voluptas quas deleniti praesentium dicta, ab officiis vitae aspernatur. </p>
+	</details>
+	
+	</div>
+</div>
+<div id="frame5" class="frame">
+
+<h1 class="center">Contact us</h1>
+
+<form>
+<div class="inputGrid">
+<input type="text" placeholder="Enter first name">
+<input type="text" placeholder="Enter first name">
+<input type="text" placeholder="Enter first name">
+</div>
+<textarea placeholder="Your feedback.."></textarea>
+<div class="submitContact">
+	<input type="Submit" class="submit">
+	<input type="Reset" class="reset">
+</div>
+</form></div>
+</div>
+
+</body>
+<script>
+window.addEventListener("scroll",function(){
+let header = document.querySelector("header")
+header.classList.toggle("mid",window.scrollY > 0);
+});
+</script>
+</html>
